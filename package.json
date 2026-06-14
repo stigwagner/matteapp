@@ -1,0 +1,33 @@
+{
+  "name": "gangetabell-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gangetabell øvingsapp med badges og statistikk",
+  "scripts": {
+    "dev": "vite --port 5174",
+    "server": "node server.js",
+    "build": "tsc && vite build",
+    "build:pwa": "vite build",
+    "preview": "vite preview",
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^11.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "sharp": "^0.35.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vite-plugin-pwa": "^1.3.0"
+  }
+}
